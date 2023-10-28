@@ -8,7 +8,7 @@ var playAgainBtn = document.getElementById("playAgainBtn");
 
         var answer = Math.floor(Math.random() * (upperLimit - lowerLimit + 1)) + lowerLimit;
         var no_of_guesses = 0;
-        var maxAttempts = 15; // Limit the number of attempts to 5
+        var maxAttempts = 7; // Limit the number of attempts to 5
         var guessed_nums = [];
 
         function play() {
